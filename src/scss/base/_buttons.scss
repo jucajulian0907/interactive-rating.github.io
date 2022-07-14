@@ -1,0 +1,19 @@
+.btn {
+  background-color: $orange;
+  margin: $margin;
+  border: none;
+  border-radius: 3rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  color: $White;
+  font-weight: $bold;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $White;
+    color: $orange;
+    cursor: pointer;
+  }
+}
